@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title> Cart | Frangipani Books </title>
+
+<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+<meta name="theme-color" content="#ED008C">
+
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/site.webmanifest">
+<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                
+
+<!-- CSS  -->
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/color.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/all.min.css" rel="stylesheet">
+<link href="css/cart.css" rel="stylesheet">
+<!-- CSS  -->
+
+<!-- includes js File START-->
+<script src="js/w3data.js"></script>
+<!-- includes js File END-->
+
+</head>
+<body>
+    
+<div class="wrapper">
+
+<!--/header START-->
+<div w3-include-html="includes/header.html"></div> 
+<!--/header END-->
+
+
+
+<!--Inner Header Start-->
+<section class="wf100 inner-header">
+<div class="container">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="#"> Cart </a></li>
+</ul>
+</div>
+</section>
+<!--Inner Header End--> 
+
+
+<main class="main">
+
+<div class="page-content">
+<div class="cart">
+<div class="container">
+<div class="row">
+<div class="col-lg-9">
+<table class="table table-cart table-mobile">
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Total</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="product-col">
+<div class="product">
+<figure class="product-media">
+<a href="#">
+<img class="img-responsive" src="images/books/1.jpg">
+</a>
+</figure>
+
+<h3 class="product-title">
+<a href="#">Beige knitted elastic runner shoes</a>
+</h3><!-- End .product-title -->
+</div><!-- End .product -->
+</td>
+<td class="price-col">$84.00</td>
+<td class="quantity-col">
+<div class="cart-product-quantity">
+<input type="number" class="form-control" value="1" min="1" max="10" step="1" data-decimals="0" required>
+</div><!-- End .cart-product-quantity -->
+</td>
+<td class="total-col">$84.00</td>
+<td class="remove-col"><button class="btn-remove"><i class="icon-close"></i></button></td>
+</tr>
+<tr>
+<td class="product-col">
+<div class="product">
+<figure class="product-media">
+<a href="#">
+<img class="img-responsive" src="images/books/1.jpg">
+</a>
+</figure>
+
+<h3 class="product-title">
+<a href="#">Blue utility pinafore denim dress</a>
+</h3><!-- End .product-title -->
+</div><!-- End .product -->
+</td>
+<td class="price-col">$76.00</td>
+<td class="quantity-col">
+<div class="cart-product-quantity">
+<input type="number" class="form-control" value="1" min="1" max="10" step="1" data-decimals="0" required>
+</div><!-- End .cart-product-quantity -->                                 
+</td>
+<td class="total-col">$76.00</td>
+<td class="remove-col"><button class="btn-remove"><i class="icon-close"></i></button></td>
+</tr>
+</tbody>
+</table><!-- End .table table-wishlist -->
+
+<div class="cart-bottom">
+<div class="cart-discount">
+<form action="#">
+<div class="input-group">
+<input type="text" class="form-control" required placeholder="coupon code">
+<div class="input-group-append">
+<button class="btn btn-outline-primary-2" type="submit"><i class="icon-long-arrow-right"></i></button>
+</div><!-- .End .input-group-append -->
+</div><!-- End .input-group -->
+</form>
+</div><!-- End .cart-discount -->
+
+<a href="#" class="btn btn-outline-dark-2"><span>UPDATE CART</span><i class="icon-refresh"></i></a>
+</div><!-- End .cart-bottom -->
+</div><!-- End .col-lg-9 -->
+<aside class="col-lg-3">
+<div class="summary summary-cart">
+<h3 class="summary-title">Cart Total</h3><!-- End .summary-title -->
+
+<table class="table table-summary">
+<tbody>
+<tr class="summary-subtotal">
+<td>Subtotal:</td>
+<td>$160.00</td>
+</tr><!-- End .summary-subtotal -->
+<tr class="summary-shipping">
+<td>Shipping:</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr class="summary-shipping-row">
+<td>
+<div class="custom-control custom-radio">
+<input type="radio" id="free-shipping" name="shipping" class="custom-control-input">
+<label class="custom-control-label" for="free-shipping">Free Shipping</label>
+</div><!-- End .custom-control -->
+</td>
+<td>$0.00</td>
+</tr><!-- End .summary-shipping-row -->
+
+<tr class="summary-shipping-row">
+<td>
+<div class="custom-control custom-radio">
+<input type="radio" id="standart-shipping" name="shipping" class="custom-control-input">
+<label class="custom-control-label" for="standart-shipping">Standart:</label>
+</div><!-- End .custom-control -->
+</td>
+<td>$10.00</td>
+</tr><!-- End .summary-shipping-row -->
+
+<tr class="summary-shipping-row">
+<td>
+<div class="custom-control custom-radio">
+<input type="radio" id="express-shipping" name="shipping" class="custom-control-input">
+<label class="custom-control-label" for="express-shipping">Express:</label>
+</div><!-- End .custom-control -->
+</td>
+<td>$20.00</td>
+</tr><!-- End .summary-shipping-row -->
+
+<tr class="summary-shipping-estimate">
+<td>Estimate for Your Country<br> <a href="dashboard.html">Change address</a></td>
+<td>&nbsp;</td>
+</tr><!-- End .summary-shipping-estimate -->
+
+<tr class="summary-total">
+<td>Total:</td>
+<td>$160.00</td>
+</tr><!-- End .summary-total -->
+</tbody>
+</table><!-- End .table table-summary -->
+
+<a href="checkout.html" class="btn btn-outline-primary-2 btn-order btn-block">PROCEED TO CHECKOUT</a>
+</div><!-- End .summary -->
+
+<a href="category.html" class="btn btn-outline-dark-2 btn-block mb-3"><span>CONTINUE SHOPPING</span><i class="icon-refresh"></i></a>
+</aside><!-- End .col-lg-3 -->
+</div><!-- End .row -->
+</div><!-- End .container -->
+</div><!-- End .cart -->
+</div><!-- End .page-content -->
+</main><!-- End .main -->
+
+<!--/#footer START-->
+<div w3-include-html="includes/footer.html"></div> 
+<!--/#footer END-->
+
+</div>
+
+
+
+<!-- includes function START-->
+<script>
+w3IncludeHTML();
+</script>
+<!-- includes function END-->   
+    
+    
+<!--   JS Files Start  --> 
+<script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/jquery-migrate-1.4.1.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/jquery.prettyPhoto.js"></script> 
+<script src="js/isotope.min.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+
+
+</html>

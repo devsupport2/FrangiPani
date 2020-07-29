@@ -1,0 +1,150 @@
+.cnt-home {
+    background-color: #f2f3f7;
+}
+
+
+.collapse.in {
+    display: block;
+}
+
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title > a:not(.collapsed) span {
+  background-color: #12cca7;
+}
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:hover,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:focus {
+  color: #12cca7;
+}
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:hover,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:focus {
+  color: #12cca7;
+}
+
+
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title {
+  margin: 0px !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+/*===================================================================================*/
+/* Checkout
+/*===================================================================================*/
+.checkout-box .checkout-steps .panel-default    {
+  background-color: #fff;
+    padding: 20px;
+}
+
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login form .form-group .info-title {
+  font-weight: normal;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login .forgot-password {
+  padding-top: 14px;
+  display: inline-block;
+}
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a {
+  font-size: 13px;
+  color: #666666;
+  text-decoration: underline;
+}
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login button {
+  margin-top: 15px;
+}
+
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title a {
+  color: #555;
+  text-transform: uppercase;
+  display: block;
+}
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title a span {
+  background-color: #aaaaaa;
+  color: #fff !important;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 15px 20px;
+  border-radius:5px
+}
+.checkout-box .checkout-steps .checkout-subtitle {
+  font-size: 18px;
+  color: #434343;
+  margin-right: 12px;
+}
+.checkout-box .checkout-steps .panel-body {
+  padding: 20px;
+  border:none
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body {border:none}
+
+.checkout-box .checkout-steps .guest-login form .radio-checkout-unicase .guest-check {
+  margin-bottom: 6px;
+}
+.checkout-box .checkout-steps .guest-login ul .save-time-reg {
+  padding-bottom: 4px;
+}
+.checkout-box .panel-group .panel {
+  border-radius: 5px !important;
+      background-color: #fff;
+    padding: 20px;
+  border:none;
+  margin-bottom:15px
+}
+.checkout-box .checkout-progress-sidebar .panel-body ul li a {
+  color: #666666;
+}
+.checkout-box .checkout-progress-sidebar .panel .panel-heading {
+  padding: 27px 30px;
+  border-bottom: 1px solid #ddd;
+}
+.checkout-box .checkout-progress-sidebar .panel .panel-heading h4 {
+      margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #fff;
+    border-bottom: 1px #e5e5e5 solid;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+      font-family: 'Barlow', sans-serif;
+}
+.checkout-box .checkout-steps .checkout-step-01 .guest-login form .radio input[type="radio"],
+.checkout-box .checkout-steps form .radio-inline input[type="radio"],
+.checkout-box .checkout-steps form .checkbox input[type="checkbox"],
+.checkout-box .checkout-steps form .checkbox-inline input[type="checkbox"] {
+  margin-left: 0px;
+}
+.checkout-box .checkout-steps .panel .panel-heading,
+.checkout-box .checkout-progress-sidebar .panel .panel-heading {
+  font-size: 20px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding:0px;
+  border:none;
+    border-radius:5px
+}
+.checkout-box .checkout-steps .guest-login .title-tag-line,
+.checkout-box .checkout-steps .already-registered-login .title-tag-line {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.checkout-box .checkout-steps .guest-login form .radio-checkout-unicase,
+.checkout-box .checkout-steps .guest-login ul {
+  padding-left: 10px;
+  font-size: 14px;
+}
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:hover,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:focus,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+.checkout-progress-sidebar {font-size:14px}
+.checkout-progress-sidebar .nav>li>a {padding: 10px 0px;} 
+.checkout-progress-sidebar .nav>li>a:hover, .nav>li>a:focus {background:none}
+
+
