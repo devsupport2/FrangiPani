@@ -1,0 +1,53 @@
+<div class="animated fadeIn">
+  <div class="card" [hidden]="submitted">
+    <form (ngSubmit)="onSubmit()" method="post" class="form-horizontal">
+      <div class="card-header">
+        <strong>Add</strong> Category     
+       </div>
+    <div class="card-body" >       
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label" for="input-normal">Category Name</label>
+          <div class="col-sm-10">
+            <input type="text" id="categoryName" [(ngModel)]="category.categoryName" (ngModelChange)="setFlags()" name="categoryName" class="form-control" placeholder="Category Name">
+            <p class="alert alert-danger" [hidden]="categoryNameError==0">{{categoryNameMsg}}</p>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label" for="input-normal">Description</label>
+          <div class="col-sm-10">
+            <input type="text" id="description" name="description" [(ngModel)]="category.description" (ngModelChange)="setFlags()" class="form-control" placeholder="Description">
+            <p class="alert alert-danger" [hidden]="categoryDescriptionError==0">{{categoryDescriptionMsg}}</p>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label" for="input-normal">Image </label>
+          <div class="col-sm-10">
+            <input type="file" (change)="fileChangeEvent($event)" />
+          </div>
+        </div>
+        <div class="row" style="margin-top: 15px;" [hidden]="flag==0">
+          <div class="text-center col-md-6">
+              <h5>Crop Image</h5>
+              <image-cropper 
+              [imageChangedEvent]="imageChangedEvent" 
+              [maintainAspectRatio]="true" 
+              [aspectRatio]="14/ 18"
+              format="jpeg" 
+              (imageCropped)="imageCropped($event)" 
+              (imageLoaded)="imageLoaded()"
+              (cropperReady)="cropperReady()" 
+              (loadImageFailed)="loadImageFailed()"></image-cropper>
+          </div>
+          <div class="text-center col-md-6">
+              <h5>Preview</h5>
+              <img [src]="croppedImage" style="width: 100%;" />
+          </div>
+      </div>  
+    </div>
+    <div class="card-footer">
+      <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
+      <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+    </div>
+    </form>
+  </div>
+ </div>
